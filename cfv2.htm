@@ -1,0 +1,33 @@
+<body style="background-color: skyblue;">
+<div id = "outside">
+<form id="consent-form" action="/my-handling-form-page" method="post">
+    <h1 id="title"> CONSENT FORM </h1>
+    <p id="description"><b>*Mandatory Fields</b></p>
+
+    <!-- 01 FINANCIAL NEEDS -->
+    <fieldset>
+    <legend>01 FINANCIAL NEEDS </legend>
+    <div>
+        <label id="amount-label" for="amount"><b> Amount Needed: $</b></label>
+        <input type="number" required id="amount" name="amount_needed" placeholder="Enter amount needed">
+    </div>
+    <!-- 01.2 Radio Button -->
+    <div>
+    <label for="Purpose"> <b>Purpose.</b> Please choose one(1) </label>
+    <p>
+    <input type="radio" name="purpose" value="appliance" checked> Appliance/Furniture <br>
+    <input type="radio" name="purpose" value="business" > Business <br>
+    <input type="radio" name="purpose" value="medical"> Medical Expenses <br>
+    <input type="radio" name="purpose" value="car"> Car purchase/repair <br>
+    <input type="radio" name="purpose" value="tuition"> Tuition fee payment <br>
+    <input type="radio" name="purpose" value="travel"> Travel <br>
+    <input type="radio" name="purpose" value="home"> Home Improvement <br>
+    <input type="radio" name="purpose" value="debt"> Debt Consolidation <br>    
+</p>
+</div>
+</fieldset>
+<!-- 02 PERSONAL DETAILS-->
+
+</form>
+</div>
+</body>
