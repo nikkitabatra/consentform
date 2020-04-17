@@ -27,7 +27,61 @@
 </div>
 </fieldset>
 <!-- 02 PERSONAL DETAILS-->
-
+fieldset>
+    <legend>02 PERSONAL DETAILS</legend>
+    <div>
+        <label for="msg"></label>
+        <p><b>*Full name</b>(First, Middle, Last)(ALL IN CAPS)</p>
+        <textarea id="msg" name="user_message" rows="1" cols="20" placeholder="Enter name here">
+        </textarea>
+    </div>
+    <div>
+        <label for="date-label"><b>*Date of birth</b>(dd/mm/yyyy)</label>
+        <textarea id="msg" name="dob" rows="1" cols="10" placeholder="dd/mm/yyyy">
+        </textarea>
+    </div>
+    <div>
+        <label for="msg"></label>
+        <p><b>*Place of birth</b></p>
+        <textarea id="msg" name="pob" rows="1" cols="20" placeholder="Name of Place">
+        </textarea>
+    </div>
+    <div>
+        <label for="msg"></label>
+        <p><b>*Mother's maiden name</b></p>
+        <textarea id="msg" name="mother" rows="1" cols="20" placeholder="Enter name">
+        </textarea>
+    </div>
+    <div>
+        <label for="Title"><b>Title</b></label>
+        <p>
+            <input type="radio" name="title" value="mr" checked> Mr. <br>
+            <input type="radio" name="title" value="mrs"> Mrs. <br>
+            <input type="radio" name="title" value="ms"> Ms. 
+        </p>
+    </div>
+    <div>
+        <label for="Gender"><b>Gender</b></label>
+        <p>
+          <input type="radio" name="gender" value="male" checked> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+          <input type="radio" name="gender" value="other"> Other
+        </p>
+      </div>
+      <div>
+        <label for="CivilStatus"><b>Civil Status</b></label>
+        <p>
+          <input type="radio" name="CivilStatus" value="Single" checked> Single<br>
+          <input type="radio" name="CivilStatus" value="married"> Married<br>
+          <input type="radio" name="CivilStatus" value="other"> Other
+        </p>
+      </div>
+      <div>
+         <label for="number"><b> No. of dependents </b></label>
+         <input type="nod" required id="nod" name="nod" placeholder="Enter no. of dependents">
+      </div>
+</fieldset>
+    
 </form>
 </div>
 </body>
